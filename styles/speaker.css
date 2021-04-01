@@ -91,14 +91,12 @@ box-shadow: 3px 3px 4px 4px black;
 
 } */
 section {
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
 }
 
 article {
     /*padding-top: .5em;*/
     padding-bottom: .5em;
-    border-top: 2px solid #800000;
-    border-bottom: 2px solid #800000;
 }
 
 article img {
@@ -115,21 +113,25 @@ article h2 {
 
 article h3 {
     font-size: 105%;
-    padding-bottom: .1em;
+    padding-bottom: .25em;
 }
 
 section h1 {
     font-size: 150%;
     padding-top: .5em;
-    padding-bottom: .25em;
+    padding-bottom: .5em;
     margin: 0;
+    color: #800000;
 }
 
 section h2 {
-    font-size: 130%;
-    color: #800000;
-    padding-top: .5em;
-    padding-bottom: .25em;
+    font-size: 105%;
+    color: black;
+}
+
+section p {
+    padding-top: .3em;
+    font-size: 100%;
 }
 
 aside h2 {
@@ -180,9 +182,7 @@ section li {
 .normala {
     font-size: 75%;
 }
-.pada {
-    margin-top: 1.5em;
-}
+
 /* Changes the text to italic when the link is focused,
    or the mouse hovers over the link */
 a:focus, a:hover {
